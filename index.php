@@ -31,9 +31,9 @@
     <?php foreach ($utenti as $utente) { ?>
 
         <h2> Utente ID: <?php echo $utente->username; ?> </h2>
-        <p> Nome: <?php echo $utente->nome; ?> </p>
+        <!-- <p> Nome: <?php echo $utente->nome; ?> </p>
         <p> Cognome: <?php echo $utente->cognome; ?> </p>
-        <p> Data di nascita: <?php echo $utente->data_di_nascita; ?> </p>
+        <p> Data di nascita: <?php echo $utente->data_di_nascita; ?> </p> -->
         <p> Email: <?php echo $utente->email; ?> </p>
         <p> Password: <?php echo $utente->password; ?> </p>
 
